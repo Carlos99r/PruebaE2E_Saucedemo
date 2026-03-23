@@ -27,7 +27,7 @@ Ubicarse en la raiz del proyecto y ejecutar los siguientes comandos segun corres
 
 Clonar el proyecto:
 
-git clone https://github.com/USUARIO/REPOSITORIO.git
+git clone https://github.com/Carlos99r/PruebaE2E_Saucedemo.git
 cd Saucedemo
 
 Descargar dependencias y compilar en Windows:

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Flujo de compra en SauceDemo" skipped="0" tests="1" time="12.91" timestamp="2026-03-23 03:42:52"><testcase name="Compra exitosa de dos productos"><failure message="&#13;&#10;Expected: &quot;THANK YOU FOR YOUR ORDER&quot;&#13;&#10;     but: was &quot;Thank you for your order!&quot;" type="java.lang.AssertionError">&#13;
+Expected: "THANK YOU FOR YOUR ORDER"&#13;
+     but: was "Thank you for your order!"</failure><system-err>&#13;
+Expected: "THANK YOU FOR YOUR ORDER"&#13;
+     but: was "Thank you for your order!"&#13;
+com.saucedemo.stepdefinitions.PurchaseStepDefinitions.debeVisualizarLaConfirmacionDeCompraExitosa(PurchaseStepDefinitions.java:69)&#13;
+✽.debe visualizar la confirmacion de compra exitosa(file:///C:/Users/carlos.reinado/IdeaProjects/Saucedemo/src/test/resources/features/purchase_flow.feature:10)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,9 @@
+Conclusiones
+
+Se realizo la automatizacion del flujo de compra en SauceDemo, cubriendo el ingreso al sitio, el inicio de sesion, la adicion de productos al carrito, el proceso de compra y la validacion final del mensaje de confirmacion.
+
+Durante la ejecucion se observo que el flujo en general responde de forma correcta y permite completar la compra. La aplicacion abre, deja iniciar sesion, permite seleccionar productos y avanzar hasta la pantalla final.
+
+El resultado final de la prueba fue fallido, no porque el proceso de compra se haya detenido, sino porque el mensaje mostrado por la pagina al final no coincide exactamente con el texto esperado en la validacion. La prueba esperaba encontrar el texto en mayusculas: THANK YOU FOR YOUR ORDER, pero la pagina mostro una variante diferente: Thank you for your order!
+
+En conclusion, el comportamiento funcional del flujo fue satisfactorio, pero la validacion final no cumplio con el criterio definido para la comparacion exacta del mensaje. Por esta razon, la ejecucion se reporta como fallida.
